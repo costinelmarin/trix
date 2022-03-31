@@ -164,20 +164,17 @@ Copyright © 2022 Basecamp, LLC
       group: false
     },
     alignLeft: {
-      tagName: "b",
-      parse: false,
+      tagName: "align-left",
       nestable: false,
       exclusive: true
     },
     alignCenter: {
       tagName: "align-center",
-      parse: false,
       nestable: false,
       exclusive: true
     },
     alignRight: {
       tagName: "align-right",
-      parse: false,
       nestable: false,
       exclusive: true
     }
