@@ -53,6 +53,24 @@ const attributes = {
     parse: false,
     group: false,
   },
+  alignLeft: {
+    tagName: "align-left",
+    parse: false,
+    nestable: false,
+    exclusive: true,
+  },
+  alignCenter: {
+    tagName: "align-center",
+    parse: false,
+    nestable: false,
+    exclusive: true,
+  },
+  alignRight: {
+    tagName: "align-right",
+    parse: false,
+    nestable: false,
+    exclusive: true,
+  },
 }
 
 const tagName = (element) => element?.tagName?.toLowerCase()
