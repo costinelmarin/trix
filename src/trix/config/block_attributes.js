@@ -30,7 +30,9 @@ const attributes = {
     group: false,
     nestable: true,
     test(element) {
-      return tagName(element.parentNode) === attributes[this.listAttribute].tagName
+      return (
+        tagName(element.parentNode) === attributes[this.listAttribute].tagName
+      );
     },
   },
   numberList: {
@@ -43,7 +45,9 @@ const attributes = {
     group: false,
     nestable: true,
     test(element) {
-      return tagName(element.parentNode) === attributes[this.listAttribute].tagName
+      return (
+        tagName(element.parentNode) === attributes[this.listAttribute].tagName
+      );
     },
   },
   attachmentGallery: {
@@ -54,7 +58,7 @@ const attributes = {
     group: false,
   },
   alignLeft: {
-    tagName: "align-left",
+    tagName: "b",
     parse: false,
     nestable: false,
     exclusive: true,
@@ -71,8 +75,8 @@ const attributes = {
     nestable: false,
     exclusive: true,
   },
-}
+};
 
-const tagName = (element) => element?.tagName?.toLowerCase()
+const tagName = (element) => element?.tagName?.toLowerCase();
 
-export default attributes
+export default attributes;

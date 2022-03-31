@@ -126,7 +126,7 @@ const attributes = {
     group: false
   },
   alignLeft: {
-    tagName: "align-left",
+    tagName: "b",
     parse: false,
     nestable: false,
     exclusive: true

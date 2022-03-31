@@ -164,7 +164,7 @@ Copyright © 2022 Basecamp, LLC
       group: false
     },
     alignLeft: {
-      tagName: "align-left",
+      tagName: "b",
       parse: false,
       nestable: false,
       exclusive: true
